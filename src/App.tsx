@@ -10,7 +10,7 @@ import PostSales from './pages/PostSales';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/plataforma_pagamento_od">
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Navigate to="/dashboard" replace />} />
